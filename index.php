@@ -117,7 +117,7 @@
         <th>total cups</th>
     </tr>
     <tr>
-        <td><?= $_POST['order']?></td>
+        <td><?= $_POST['order'] ? : 0 ?></td>
     </tr>
     <tr class="header">
         <th>total time</th>
